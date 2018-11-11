@@ -1,6 +1,9 @@
 var ANO_MIN = 2008;
 var ANO_MAX = 2016;
 
+var graficoNaoUtilizado = true; // Indica se é a página foi carregada pela primeira vez
+var languages = [];
+
 // Define as dimensões e as margens do gráfico
 var margin = {top: 50, right: 150, bottom: 100, left: 150},
 	width = 1000 - margin.left - margin.right,
@@ -65,6 +68,18 @@ d3.csv("data/repositories_per_month_languages.csv", function(error, data) {
 					year: ano,
 					created_repos: num_repositorios
 				});
+
+			// Adiciona entrada para todas as linguagens
+			pos = repositories.findIndex(x => x.language === 'Todas' && x.year === ano);
+			if (pos >= 0) {
+				repositories[pos].created_repos += num_repositorios;
+			}
+			else
+				repositories.push({
+					language: 'Todas',
+					year: ano,
+					created_repos: num_repositorios
+				});
 		}
 	}
 
@@ -92,6 +107,7 @@ d3.csv("data/repositories_per_month_languages.csv", function(error, data) {
 		.style("text-anchor", "middle")
 		.text("Repositórios criados");
 
+	atualizaGrafico();
 });
 
 
@@ -102,10 +118,16 @@ function atualizaGrafico() {
 	y.domain([0, d3.max(repositories, function(d) { return d.created_repos; })]);
 
 	// Adiciona as linhas de cada linguagem
-	var languages = [];
+	languages = [];
 	document.querySelectorAll('input[type="checkbox"]:checked').forEach(function (d) {
 		languages.push(d.value);
 	});
+
+	// Se não tem nenhuma linguagem selecionada, começa com as linguagens mais populares
+	if (graficoNaoUtilizado) {
+		languages = ['Todas'];
+		graficoNaoUtilizado = false;
+	}
 	
 
 	if (languages.length < QTD_MAX_CORES) {

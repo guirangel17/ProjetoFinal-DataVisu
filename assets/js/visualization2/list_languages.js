@@ -12,6 +12,7 @@ d3.csv("data/repositories_per_month_languages.csv", function(error, data) {
 		}
 	}
 	languages.sort();
+	languages.unshift('Todas');
 
 
 	// Adiciona lista de linguagens na página
