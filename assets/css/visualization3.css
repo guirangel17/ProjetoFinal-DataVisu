@@ -1,0 +1,92 @@
+svg {
+	font: 12px sans-serif;
+	margin-top: 10px;
+	position: fixed;
+}
+
+.bar rect {
+	fill: #2c7bb6;
+	shape-rendering: crispEdges;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.line {
+	fill: none;
+	stroke: #d7191c;
+	stroke-width: 1.5px;
+}
+
+.dot {
+	fill: #d7191c;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    /*width: 60px;					
+    height: 28px;*/					
+    padding: 8px;				
+    font: 12px sans-serif;		
+    background: white;	
+    border: 1px solid black;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+
+.cabecalho {
+	height: 50px;
+	width: 100%;
+	background-color: #d7191c;
+	display: inline-block;
+}
+
+.titulo {
+	font-family: "Arial", sans-serif;
+	color: white;
+	font-weight: 900;
+	font-size: 25px;
+	padding-left: 35px;
+	padding-top: 5px;
+	width: 50%;
+	display: inline-block;
+}
+
+#busca {
+	padding-top: 7px;
+	float: right;
+	display: inline-block;
+	width: 45%;
+}
+
+#cargo {
+	width: 40%;
+	display: inline-block;
+}
+
+#UF {
+	width: 40%;
+	display: inline-block;
+}
+
+#button-busca {
+	display: inline-block;
+}
+
+footer {
+	font-family: "Arial", sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.65rem;
+	background-color: #efefef;
+	text-align: center;
+}
