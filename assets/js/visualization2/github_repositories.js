@@ -4,6 +4,21 @@ var ANO_MAX = 2016;
 var graficoNaoUtilizado = true; // Indica se é a página foi carregada pela primeira vez
 var languages = [];
 
+// Configurações do loader
+let opts = {
+  lines: 9,
+  length: 9,
+  width: 5,
+  radius: 14,
+  color: '#EE3124',
+  speed: 1.9,
+  trail: 40,
+  className: 'spinner',
+};
+
+let spinner = new Spinner(opts).spin().el;
+$('#conteudo').after(spinner);
+
 // Define as dimensões e as margens do gráfico
 var margin = {top: 50, right: 150, bottom: 100, left: 150},
 	width = 1000 - margin.left - margin.right,
@@ -83,6 +98,8 @@ d3.csv("data/repositories_per_month_languages.csv", function(error, data) {
 		}
 	}
 
+	// Remove o loader após o carregamento dos dados
+	$(".spinner").remove();
 
 	//
 	x.domain([ANO_MIN, ANO_MAX]);
