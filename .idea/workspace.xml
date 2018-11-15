@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0dfb6fa-327b-440d-8d74-e0433dba4837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/visualization4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/visualization4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/commits_by_country.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fourthVisualization.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tabs.html" beforeDir="false" afterPath="$PROJECT_DIR$/tabs.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -198,14 +192,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="25" />
-          <entry key="html" value="137" />
+          <entry key="html" value="138" />
           <entry key="js" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="25" />
-          <entry key="HTML" value="137" />
+          <entry key="HTML" value="138" />
           <entry key="JavaScript" value="47" />
         </counts>
       </usages-collector>
@@ -249,11 +243,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="324">
+              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -285,7 +279,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -358,8 +352,8 @@
         <option value="$PROJECT_DIR$/assets/css/visualization3.css" />
         <option value="$PROJECT_DIR$/thirdVisualization.html" />
         <option value="$PROJECT_DIR$/assets/js/visualization3.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/tabs.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -457,12 +451,12 @@
       <workItem from="1540645807409" duration="29638000" />
       <workItem from="1540852180530" duration="17585000" />
       <workItem from="1541188966430" duration="7200000" />
-      <workItem from="1541883888995" duration="7932000" />
+      <workItem from="1541883888995" duration="8367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89343000" />
+    <option name="totallyTimeSpent" value="89778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -543,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/visualization1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -561,6 +548,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="60" lean-forward="true" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
