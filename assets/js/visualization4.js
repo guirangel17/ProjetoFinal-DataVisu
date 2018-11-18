@@ -15,8 +15,6 @@ function createVisualization() {
   $('#canvas-svg').after(spinner);
 
   d3.csv("data/commits_by_country.csv", function(err, data) {
-    $(".spinner").remove();
-
     let config = {
       "data0":"Country (or dependent territory)",
       "data1":"Population",
@@ -222,6 +220,8 @@ function createVisualization() {
     });
 
     d3.select(self.frameElement).style("height", (height * 2.3 / 3) + "px");
+
+    $(".spinner").remove();
   });
 }
 
