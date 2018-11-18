@@ -15,7 +15,7 @@ const segColor = (c) => {
 };
 
 // Configurações do loader
-let opts = {
+const opts = {
   lines: 9,
   length: 9,
   width: 5,
