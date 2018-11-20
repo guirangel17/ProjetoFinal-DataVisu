@@ -115,9 +115,18 @@ function pullsPorLinguagem() {
           .enter().append("circle")
           .attr("class", "dot")
           .attr("r", 3.5)
+          .attr('stroke','black')
+          .attr('stroke-width',0.5)
           .attr("cx", function(d) { return x(Math.log(d.issues)); })
           .attr("cy", function(d) { return y(Math.log(d.pulls)); })
           .on("mouseover", function(d) {
+                  d3.select(this)
+                    .transition()
+                    .duration(500)
+                    .attr('r',15)
+                    .attr('stroke-width',1)
+                    .style("opacity", .7);
+
                   div.transition()
                   .duration(200)
                   .style("opacity", .9);
@@ -132,6 +141,11 @@ function pullsPorLinguagem() {
                   .style("top", (d3.event.pageY + 10) + "px");
               })
          .on("mouseout", function(d) {
+                 d3.select(this)
+                  .transition()
+                  .duration(500)
+                  .attr('r', 3.5)
+                  .attr('stroke-width', 0.5)
                  div.transition()
                  .duration(500)
                 .style("opacity", 0);
