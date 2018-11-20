@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Visualizando Dados do GitHub </title>
+
+
+    <link href="vendors/css/bootstrap.min.css" rel="stylesheet">
+    <script src="vendors/js/jquery-3.3.1.min.js"></script>
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/js/d3.v4.min.js"></script>
+    <script src='vendors/js/spin.js'></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/visualization5.css"/>
+    <script type="text/javascript" src="assets/js/visualization2/colors.js"></script>
+    <script type="text/javascript" src="assets/js/visualization5/github_issues.js"></script>
+    <script type="text/javascript" src="assets/js/visualization5/github_pulls.js"></script>
+
+    <script>
+      $(function(){
+        $("#includedTabs").load("tabs.html");
+      });
+    </script>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div id="includedTabs"></div>
+  </div>
+  <div class="body" style="margin-bottom: 0px;">
+    <div class="container-fluid">
+      <h4 class="my-0 mr-md-auto font-weight-normal"> Evolução do número de issues e pull requests por linguagem no GitHub </h4>
+        <hr/>
+  </div>
+  <div id="button">
+    <select id="lang" class="selectpicker" data-style="btn-light" data-live-search="true">
+          <option value="">Selecione a linguagem</option>
+          <option>JavaScript</option>
+          <option>Python</option>
+          <option>Ruby</option>
+          <option>Java</option>
+          <option>PHP</option>
+          <option>CSS</option>
+          <option>C++</option>
+          <option>C</option>
+          <option>Shell</option>
+          <option>HTML</option>
+          <option>C#</option>s
+          <option>Objective-C</option>
+          <option>Go</option>
+          <option>Perl</option>
+          <option>CoffeeScript</option>
+          <option>Scala</option>
+          <option>VimL</option>
+          <option>Haskell</option>
+          <option>Lua</option>
+          <option>R</option>
+      </select>
+        <div id="button-lang">
+            <button class="btn btn-success" onclick="issuesPorLinguagem()">
+              Issues
+            </button>
+        </div>
+        <div id="button-lang">
+				    <button class="btn btn-success" onclick="pullsPorLinguagem()">
+					     Pull requests
+				    </button>
+			  </div>
+  </div>
+  <div id="chart" align="center"></div>
+  </body>
+</html>
