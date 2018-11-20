@@ -17,7 +17,7 @@ function pullsPorLinguagem() {
 
     d3.select("svg").remove();
 
-  	var arquivo =  "/data/repositories_stats.csv";
+  	var arquivo =  "data/repositories_stats.csv";
 
   	d3.csv(arquivo, function(error, data) {
 
