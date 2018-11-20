@@ -57,18 +57,9 @@ function issuesPorLinguagem() {
       	.y(function(d) { return y(d.issues)})
 
       // Caixa de informações
-      var div = d3.select("#grafico").append("div")
+      var div = d3.select("#chart").append("div")
       			.attr("class", "tooltip")
       			.style("opacity", 0);
-
-      // Adiciona o gráfico ao corpo da página
-      var svg = d3.select("#grafico").append("svg")
-      			  .attr("width", width + margin.left + margin.right)
-      			  .attr("height", height + margin.top + margin.bottom)
-      			.append("g")
-      			  .attr("transform",
-      					"translate(" + margin.left + "," + margin.top + ")");
-
 
       // Define e adiciona os eixos
       var xAxis = d3.axisBottom(x)
