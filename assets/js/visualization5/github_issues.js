@@ -81,70 +81,66 @@ function issuesPorLinguagem() {
       					return d.toLocaleString('pt-BR');
       				});
 
-  		// Caixa de informações
-  		var div = d3.select("body").append("div")
-  					.attr("class", "tooltip")
-  					.style("opacity", 0);
-
   		// Plota svg
   		var svg = d3.select("#chart").append("svg")
-  					.attr("width", w + m.left + m.right)
-  					.attr("height", h + m.top + m.bottom)
+  					.attr("width", width + margin.left + margin.right)
+  					.attr("height", height + margin.top + margin.bottom)
   					.append("g")
-  					.attr("transform", "translate(" + m.left + "," + m.top + ")");
+  					.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-            //
-            x.domain([ANO_MIN, ANO_MAX]);
-            y.domain([0, d3.max(repositories, function(d) { return d.issues; })]);
+    	x.domain([ANO_MIN, ANO_MAX]);
+      y.domain([0, d3.max(repositories, function(d) { return d.issues; })]);
 
-            // Adiciona o eixo X
-            svg.append("g")
-              .attr("id", "x-axis")
-              .attr("transform", "translate(0," + height + ")")
-              .call(xAxis);
+    	// Adiciona o eixo X
+      svg.append("g")
+        	.attr("id", "x-axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis);
 
-            // Adiciona o eixo Y
-            svg.append("g")
-              .attr("id", "y-axis")
-              .call(yAxis);
+      // Adiciona o eixo Y
+      svg.append("g")
+         .attr("id", "y-axis")
+         .call(yAxis);
 
-            svg.append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("y", 0 - (margin.left / 2))
-              .attr("x", 0 - (height / 2))
-              .attr("dy", ".1em")
-              .style("text-anchor", "middle")
-              .text("Nº de issues/repositórios");
-              svg.append("path")
-                .datum(repositories)
-                .attr("class", "line")
-                .attr("stroke", color_palette(i))
-                .attr("d", valueline);
-                // Plota pontos sobre a linha
-          			svg.selectAll("dot")
-          				.data(repositories)
-          				.enter().append("circle")
-          				.attr("r", 4.5)
-          				.attr("class", "dot")
-          				.attr("fill", color_palette(i))
-          				.attr("cx", function(d) { return x(d.year); })
-          				.attr("cy", function(d) { return y(d.issues); })
-          				.on("mouseover", function(d) {
-          								div.transition()
-          								.duration(200)
-          								.style("opacity", .9);
+    	svg.append("text")
+         .attr("transform", "rotate(-90)")
+         .attr("y", 0 - (margin.left / 2))
+         .attr("x", 0 - (height / 2))
+         .attr("dy", ".1em")
+         .style("text-anchor", "middle")
+         .text("Nº de issues/repositórios");
 
-          								div.html("<b>" + lang + "-" + d.year + "</b><br/>"
-													+ "Nº de repositórios: " + d.repos.toLocaleString('pt-BR') + "<br/>"
-													+ "Nº de issues: " + d.num_issues.toLocaleString('pt-BR') + "<br/>"
-          								+ "Issues/repositório:" + d.issues.toLocaleString('pt-BR'))
-          								.style("left", (d3.event.pageX) + "px")
-          								.style("top", (d3.event.pageY + 10) + "px");
-          							})
-          				.on("mouseout", function(d) {
-          								div.transition()
-          								.duration(500)
-          								.style("opacity", 0);
-          							});
+      svg.append("path")
+         .datum(repositories)
+         .attr("class", "line")
+         .attr("stroke", color_palette(i))
+         .attr("d", valueline);
+
+      // Plota pontos sobre a linha
+      svg.selectAll("dot")
+         .data(repositories)
+         .enter().append("circle")
+         .attr("r", 4.5)
+          .attr("class", "dot")
+          .attr("fill", color_palette(i))
+          .attr("cx", function(d) { return x(d.year); })
+          .attr("cy", function(d) { return y(d.issues); })
+          .on("mouseover", function(d) {
+          		div.transition()
+          		.duration(200)
+          		.style("opacity", .9);
+
+          		div.html("<b>" + lang + "-" + d.year + "</b><br/>"
+							+ "Nº de repositórios: " + d.repos.toLocaleString('pt-BR') + "<br/>"
+							+ "Nº de issues: " + d.num_issues.toLocaleString('pt-BR') + "<br/>"
+          		+ "Issues/repositório:" + d.issues.toLocaleString('pt-BR'))
+          		.style("left", (d3.event.pageX) + "px")
+          		.style("top", (d3.event.pageY + 10) + "px");
+          	  })
+          .on("mouseout", function(d) {
+          		 div.transition()
+          		 .duration(500)
+          		 .style("opacity", 0);
+              });
   	});
   }
