@@ -1,4 +1,3 @@
-
 pullsPorLinguagem();
 
 function pullsPorLinguagem() {
@@ -53,7 +52,17 @@ function pullsPorLinguagem() {
       var x = d3.scaleLinear().range([0, width]).nice();
       var y = d3.scaleLinear().range([height, 0]).nice();
 
-      var color = d3.scaleOrdinal(d3.schemeCategory10);
+      var XaxisData = data.map(function(d) { return Math.log(d.issues); });
+      var YaxisData = data.map(function(d) { return Math.log(d.pulls); });
+      regression=leastSquaresequation(XaxisData,YaxisData);
+
+      var newline = d3.line()
+          .x(function(d) {
+            return x(d.issues);
+          })
+          .y(function(d) {
+            return y(regression(d.issues));
+          });
 
       var xAxis = d3.axisBottom(x);
       var yAxis = d3.axisLeft(y);
@@ -110,6 +119,12 @@ function pullsPorLinguagem() {
          .text("Nº de pull requests (log)")
          .attr("font-size", "15px");
 
+      // append regression line
+      svg.append("path")
+         .datum(data)
+         .attr("class", "line")
+         .attr("d", newline);
+
       svg.selectAll(".dot")
           .data(data)
           .enter().append("circle")
@@ -124,7 +139,7 @@ function pullsPorLinguagem() {
                     .transition()
                     .duration(500)
                     .attr('r',15)
-                    .attr('stroke-width',1)
+                    .attr('stroke-width',2)
                     .style("opacity", .7);
 
                   div.transition()
@@ -150,5 +165,33 @@ function pullsPorLinguagem() {
                  .duration(500)
                 .style("opacity", 0);
               });
+
   	});
+}
+
+
+function leastSquaresequation(XaxisData, Yaxisdata) {
+    var ReduceAddition = function(prev, cur) { return prev + cur; };
+
+    // finding the mean of Xaxis and Yaxis data
+    var xBar = XaxisData.reduce(ReduceAddition) * 1.0 / XaxisData.length;
+    var yBar = Yaxisdata.reduce(ReduceAddition) * 1.0 / Yaxisdata.length;
+
+    var SquareXX = XaxisData.map(function(d) { return Math.pow(d - xBar, 2); })
+      .reduce(ReduceAddition);
+
+    var ssYY = Yaxisdata.map(function(d) { return Math.pow(d - yBar, 2); })
+      .reduce(ReduceAddition);
+
+    var MeanDiffXY = XaxisData.map(function(d, i) { return (d - xBar) * (Yaxisdata[i] - yBar); })
+      .reduce(ReduceAddition);
+
+    var slope = MeanDiffXY / SquareXX;
+    var intercept = yBar - (xBar * slope);
+
+// returning regression function
+    return function(x){
+      return x*slope+intercept
+    }
+
 }
