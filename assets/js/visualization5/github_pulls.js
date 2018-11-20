@@ -1,13 +1,7 @@
 var ANO_MIN = 2008;
 var ANO_MAX = 2016;
 
-var m = {top: 50, right: 150, bottom: 100, left: 150},
-	h = 500 - m.top - m.bottom,
-	w = 1200 - m.left - m.right,
-	barwidth = 5;
-
 function pullsPorLinguagem() {
-  	var dataset = null;
 
   	var lang = document.getElementById("lang").value;
 
@@ -17,7 +11,7 @@ function pullsPorLinguagem() {
 
     d3.select("svg").remove();
 
-  	var arquivo =  "data/repositories_stats.csv";
+  	var arquivo =  "/data/repositories_stats.csv";
 
   	d3.csv(arquivo, function(error, data) {
 
