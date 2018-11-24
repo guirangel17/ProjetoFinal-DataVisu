@@ -86,12 +86,14 @@ function issuesPorLinguagem() {
       svg.append("g")
         	.attr("id", "x-axis")
           .attr("transform", "translate(0," + height + ")")
-          .call(xAxis);
+          .call(xAxis)
+          .style("font-size","15px");
 
       // Adiciona o eixo Y
       svg.append("g")
          .attr("id", "y-axis")
-         .call(yAxis);
+         .call(yAxis)
+         .style("font-size","15px");
 
     	svg.append("text")
          .attr("transform", "rotate(-90)")
@@ -99,7 +101,8 @@ function issuesPorLinguagem() {
          .attr("x", 0 - (height / 2))
          .attr("dy", ".1em")
          .style("text-anchor", "middle")
-         .text("Nº de issues/repositórios");
+         .text("Nº de issues/repositórios")
+         .attr("font-size", "18px");
 
       svg.append("path")
          .datum(repositories)
@@ -124,7 +127,7 @@ function issuesPorLinguagem() {
           		div.html("<b>" + lang + "-" + d.year + "</b><br/>"
 							+ "Nº de repositórios: " + d.repos.toLocaleString('pt-BR') + "<br/>"
 							+ "Nº de issues: " + d.num_issues.toLocaleString('pt-BR') + "<br/>"
-          		+ "Issues/repositório:" + d.issues.toLocaleString('pt-BR'))
+          		+ "Issues/repositório: " + d.issues.toLocaleString('pt-BR'))
           		.style("left", (d3.event.pageX) + "px")
           		.style("top", (d3.event.pageY + 10) + "px");
           	  })

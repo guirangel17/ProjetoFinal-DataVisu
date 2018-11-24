@@ -84,14 +84,16 @@ function pullsPorLinguagem() {
 
       // Adiciona o eixo X
       svg.append("g")
-         .attr("id", "x-axis")
-         .attr("transform", "translate(0," + height + ")")
-         .call(xAxis);
+        	.attr("id", "x-axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis)
+          .style("font-size","15px");
 
-     // Adiciona o eixo Y
-     svg.append("g")
+      // Adiciona o eixo Y
+      svg.append("g")
          .attr("id", "y-axis")
-         .call(yAxis);
+         .call(yAxis)
+         .style("font-size","15px");
 
     svg.append("text")
        .attr("transform", "rotate(-90)")
@@ -99,7 +101,8 @@ function pullsPorLinguagem() {
        .attr("x", 0 - (height / 2))
        .attr("dy", ".1em")
        .style("text-anchor", "middle")
-       .text("Nº de pull requests/repositórios");
+       .text("Nº de pull requests/repositórios")
+       .attr("font-size", "18px");
 
     svg.append("path")
        .datum(repositories)
@@ -124,7 +127,7 @@ function pullsPorLinguagem() {
 						   div.html("<b>" + lang + "-" + d.year + "</b><br/>"
 						   + "Nº de repositórios: " + d.repos.toLocaleString('pt-BR') + "<br/>"
 						   + "Nº de pull requests: " + d.num_issues.toLocaleString('pt-BR') + "<br/>"
-          	   + "Pull requests/repositório:" + d.issues.toLocaleString('pt-BR'))
+          	   + "Pull requests/repositório: " + d.issues.toLocaleString('pt-BR'))
           	   .style("left", (d3.event.pageX) + "px")
           	   .style("top", (d3.event.pageY + 10) + "px");
             })

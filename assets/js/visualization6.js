@@ -44,7 +44,7 @@ function pullsPorLinguagem() {
       data = repositories
 
       // Define as dimensões e as margens do gráfico
-      var margin = {top: 50, right: 150, bottom: 100, left: 150},
+      var margin = {top: 50, right: 50, bottom: 100, left: 150},
       	width = 1000 - margin.left - margin.right,
       	height = 500 - margin.top - margin.bottom;
 
@@ -85,6 +85,7 @@ function pullsPorLinguagem() {
           .attr("class", "x axis")
           .attr("transform", "translate(0," + height + ")")
           .call(xAxis)
+          .style("font-size","15px")
         .append("text")
           .attr("class", "label")
           .attr("x", width)
@@ -94,21 +95,22 @@ function pullsPorLinguagem() {
       svg.append("g")
           .attr("class", "y axis")
           .call(yAxis)
+          .style("font-size","15px")
         .append("text")
           .attr("class", "label")
           .attr("transform", "rotate(-90)")
           .attr("y", 6)
           .attr("dy", ".71em")
-          .style("text-anchor", "end");
+          .style("text-anchor", "end")
 
       svg.append("text")
          .attr("transform", "rotate(0)")
-         .attr("y", 30 + height)
+         .attr("y", 40 + height)
          .attr("x", 0 + (width / 2))
          .attr("dy", ".1em")
          .style("text-anchor", "middle")
          .text("Nº de issues (log)")
-         .attr("font-size", "15px");
+         .attr("font-size", "18px");
 
       svg.append("text")
          .attr("transform", "rotate(-90)")
@@ -117,7 +119,7 @@ function pullsPorLinguagem() {
          .attr("dy", ".1em")
          .style("text-anchor", "middle")
          .text("Nº de pull requests (log)")
-         .attr("font-size", "15px");
+         .attr("font-size", "18px");
 
       // append regression line
       svg.append("path")
@@ -150,8 +152,8 @@ function pullsPorLinguagem() {
                   + "Nº de repositórios: " + d.repos.toLocaleString('pt-BR') + "<br/>"
                   + "Nº de issues: " + d.num_issues.toLocaleString('pt-BR') + "<br/>"
                   + "Nº de pull requests: " + d.num_pulls.toLocaleString('pt-BR') + "<br/>"
-                  + "Issues/repositório:" + d.issues.toLocaleString('pt-BR') + "<br/>"
-                  + "Pull requests/repositório:" + d.pulls.toLocaleString('pt-BR'))
+                  + "Issues/repositório: " + d.issues.toLocaleString('pt-BR') + "<br/>"
+                  + "Pull requests/repositório: " + d.pulls.toLocaleString('pt-BR'))
                   .style("left", (d3.event.pageX) + "px")
                   .style("top", (d3.event.pageY + 10) + "px");
               })
