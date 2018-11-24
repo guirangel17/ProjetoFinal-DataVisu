@@ -61,7 +61,7 @@ div.tooltip {
 
 #conteudo #opcoes {
 	display: inline-block;
-	height: calc(100vh - 120px - 240px);
+	height: calc(100vh - 53px - 50px - 43px - 31px - 120px);
     overflow-y: auto;
 }
 
