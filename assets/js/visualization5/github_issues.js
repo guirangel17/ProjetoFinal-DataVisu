@@ -1,5 +1,5 @@
 var ANO_MIN = 2008;
-var ANO_MAX = 2016;
+var ANO_MAX = 2017;
 
 function issuesPorLinguagem() {
 
@@ -137,4 +137,4 @@ function issuesPorLinguagem() {
           		 .style("opacity", 0);
               });
   	});
-  }
+}

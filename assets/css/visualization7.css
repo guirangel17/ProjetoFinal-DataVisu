@@ -1,0 +1,118 @@
+svg {
+	font: 12px sans-serif;
+	margin-top: 10px;
+}
+
+.bar rect {
+	fill: #2c7bb6;
+	shape-rendering: crispEdges;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.line {
+	fill: none;
+	/*stroke: steelblue;*/
+	stroke-width: 2px;
+}
+
+.dot {
+	/*fill: steelblue;*/
+}
+
+#legend {
+	font-size: 11px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    /*width: 60px;
+    height: 28px;*/
+    padding: 8px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#cabecalho {
+	height: 50px;
+	background-color: black;
+	color: white;
+	font-family: "Arial";
+	font-size: 28px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 4px;
+}
+
+#conteudo {
+	width: 100%;
+}
+
+#conteudo #grafico {
+	width: 85%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#conteudo #ajuda-opcoes {
+	width: 15%;
+	display: inline-block;
+}
+
+#conteudo #texto-ajuda {
+	display: inline-block;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+#button {
+	padding-top: 7px;
+	display: inline-block;
+	width: 45%;
+}
+
+#lang {
+	display: inline-block;
+}
+
+#button-lang {
+	display: inline-block;
+}
+
+#conteudo #opcoes {
+	display: inline-block;
+	height: calc(100vh - 120px - 240px);
+    overflow-y: auto;
+}
+
+.checkbox-bonito {
+	margin-top: .3rem;
+    margin-right: 10px;
+}
+
+.texto-checkbox {
+	font-size: 12px;
+}
+
+footer {
+	font-family: "Arial", sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0.65rem;
+	background-color: #efefef;
+	text-align: center;
+}

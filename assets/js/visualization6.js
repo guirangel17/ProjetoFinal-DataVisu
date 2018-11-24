@@ -14,26 +14,27 @@ function pullsPorLinguagem() {
 
   		// Totaliza número de projetos por ano
   		for (var i = 0; i < data.length; i++) {
-  			// Retorna dados apenas para a linguagem desejada
         language = data[i]['language']
-  			num_repos = parseInt(data[i]['repositories']);
-  			num_issues = parseInt(data[i]['num_issues']);
-  			num_pulls = parseInt(data[i]['pull_requests']);
-  			total_repos += num_repos;
+        if (language && language != '\\N') {
+    			num_repos = parseInt(data[i]['repositories']);
+    			num_issues = parseInt(data[i]['num_issues']);
+    			num_pulls = parseInt(data[i]['pull_requests']);
+    			total_repos += num_repos;
 
-        pos = repositories.findIndex(x => x.language === language);
-        if (pos >= 0) {
-          repositories[pos].repos += num_repos;
-          repositories[pos].num_issues += num_issues;
-          repositories[pos].num_pulls += num_pulls;
+          pos = repositories.findIndex(x => x.language === language);
+          if (pos >= 0) {
+            repositories[pos].repos += num_repos;
+            repositories[pos].num_issues += num_issues;
+            repositories[pos].num_pulls += num_pulls;
+          }
+          else
+    			 repositories.push({
+    				 language: language,
+    				 repos: num_repos,
+    				 num_issues: num_issues,
+    				 num_pulls: num_pulls,
+    			 });
         }
-        else
-  			 repositories.push({
-  				 language: language,
-  				 repos: num_repos,
-  				 num_issues: num_issues,
-  				 num_pulls: num_pulls,
-  			 });
   		}
 
       for(var i = 0; i < repositories.length; i++) {
