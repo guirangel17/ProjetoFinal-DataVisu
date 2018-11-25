@@ -1,0 +1,1001 @@
+id,company,created_at,type,num_commits
+4,@ValuationUp & @cloudafrica,04/28/08,USR,1453
+5,DNSimple,04/06/08,USR,12497
+6,KeyLemon,02/05/10,USR,112090
+7,anydooR Inc,09/30/08,USR,250
+12,Merlin Design Ltd,05/24/09,USR,2682
+27,Neo,03/27/08,USR,3606
+36,Flowerpot Games,03/29/12,USR,153
+43,Chukong Technologies Inc.,07/27/10,USR,2897
+51,JanduSoft,04/24/11,USR,214
+63,baidu,03/15/12,USR,178
+64,Zynga,03/11/10,USR,363
+73,@XLucidity ,03/04/12,USR,2982
+77,heroku,10/22/09,USR,315
+78,NewsBlur,01/05/09,USR,10608
+79,Heroku / salesforce.com,12/14/10,USR,2190
+81,Heroku,12/01/10,USR,573
+84,Heroku,08/08/11,USR,3785
+89,Bettag Systems UG,05/01/09,USR,773
+92,Heroku,02/23/08,USR,3704
+93,@referentiallabs ,02/21/08,USR,1953
+102,AREA 17,03/31/08,USR,2731
+107,Comcard,01/04/10,USR,2940
+109,Mapbox,06/24/09,USR,13919
+112,Google,05/31/12,USR,2370
+113,ClearCode Inc.,10/02/08,USR,33981
+115,Finkhaeuser Consulting,02/15/10,USR,1499
+116,Intel,03/08/12,USR,1182
+129,GitHub,03/14/08,USR,12955
+136,PythonAnywhere LLP,09/21/09,USR,891
+138,Coursera,03/11/12,USR,248
+139,Cloudflare,01/19/11,USR,5967
+143,Hasso Plattner Institute,01/13/09,USR,7116
+144,"Tmall, DP, MS",04/12/11,USR,1263
+145,Mirocow company,08/26/10,USR,877
+150,Skive (qLearning Applications GmbH),02/24/08,USR,6381
+153,@MeteoGroup,11/11/11,USR,2796
+160,GE Healthcare Korea Technology Center,07/03/11,USR,827
+161,XS-Labs,10/29/09,USR,5461
+165,Novoda,12/02/11,USR,212
+166,Pow! Media,07/28/10,USR,937
+168,Mozilla Corporation,02/21/10,USR,2774
+173,SumoCoders,04/22/10,USR,5570
+175,SUSE,11/18/08,USR,249
+178,UC Berkeley,10/07/11,USR,135
+185,http://pro-cut.com.vn/,12/03/10,USR,697
+186,@SocialSuperstore ,11/05/09,USR,4343
+189,Fast Forward Labs,07/22/08,USR,236
+191,Mozilla,06/17/09,USR,3879
+194,Lunar Gravity,08/16/11,USR,107
+198,Europace AG,08/19/10,USR,585
+202,Mozilla,06/13/11,USR,11185
+203,Mozilla,02/03/09,USR,6635
+214,"Google, Inc.",04/05/10,USR,14837
+216,Wuit,10/31/08,USR,1998
+217,Jack Mobile (http://onjack.com),12/09/08,USR,5660
+218,Shanghai Jiao Tong University,02/04/10,USR,311
+225,Trifork,01/14/10,USR,831
+230,JActor Consulting,06/11/11,USR,7460
+233,Finn GmbH,11/27/09,USR,2404
+234,MBARI,01/10/11,USR,3971
+240,"University of Maryland, College Park",03/25/12,USR,189
+245,Revolution Systems,01/30/09,USR,2698
+246,RightScale,05/29/09,USR,1208
+247,gidsy.com,09/02/08,USR,173
+264,Picolab,04/06/09,USR,229
+266,Crom Microsystems,08/30/09,USR,1442
+271,Google – @google,08/04/09,USR,870
+273,iOS Contractor,11/22/08,USR,776
+284,Institut Pierre Simon Laplace,12/16/11,USR,4935
+286,STFC,03/18/11,USR,720
+301,Mathematics Inc.,08/16/10,USR,1672
+304,Amazon Web Services,11/24/09,USR,4120
+306,mobiThought,02/26/08,USR,104
+316,"CTO @ Knotch. Previously led engineering at CollegeHumor, Lot18, and Nomi",03/16/10,USR,158
+317,Squarespace,02/12/10,USR,387
+330,Abby,08/31/08,USR,1189
+333,GitHub,09/04/09,USR,1275
+335,Hand Built,11/24/08,USR,14605
+337,The New York Times,09/01/10,USR,504
+339,Paro Alberto Maria Angelo Consulting,10/08/08,USR,701
+348,Astrolet,03/06/08,USR,2605
+350,Ether,02/18/08,USR,247
+355,10Gen.com,04/07/08,USR,6787
+357,Freelance,06/23/08,USR,462
+360,Itseez,11/12/12,USR,1149
+366,"Tao Effect, okTurtles",10/12/09,USR,1079
+372,Polar Mobile,06/30/09,USR,331
+376,Jane Street,02/09/09,USR,609
+379,Ideeli ,10/02/09,USR,154
+384,UX Foundry,06/25/09,USR,429
+386,Blossom,06/24/08,USR,319
+388,Developer at Elastic. Creator of Superhero.js.,04/05/08,USR,2063
+390,@stormz ,05/20/09,USR,2043
+391,Cooper Press Ltd.,02/02/08,USR,374
+397,Axelerant,12/21/08,USR,635
+399,http://www.loggi.com,11/17/08,USR,2730
+401,Hudl,09/24/08,USR,1347
+402,Docker,04/30/10,USR,7483
+404,http://olark.com,09/08/08,USR,884
+405,Red Hat,02/18/10,USR,2736
+407,Participatory Culture Foundation,06/07/10,USR,920
+408,Tapad,02/17/09,USR,190
+409,Salesforce,10/02/08,USR,4570
+412,Reykjavík University,02/26/09,USR,5732
+413,Lionheart Software,12/05/08,USR,3826
+416,http://johntantalo.com,02/28/08,USR,340
+418,Robinhood,02/28/08,USR,11054
+419,Too many secrets,03/17/08,USR,3154
+421,@HillaryClinton ,08/10/08,USR,12681
+422,http://timehop.com/,04/07/08,USR,559
+423,mist.io,03/02/11,USR,635
+435,Palantir,01/23/09,USR,293
+437,Taipei Hackerspace,12/07/08,USR,3037
+439,@yahoojapan,11/15/08,USR,1370
+440,Svven,07/12/09,USR,667
+450,TigerText,12/03/09,USR,261
+455,Breaking News,02/28/08,USR,139
+456,Keepsolid,01/13/10,USR,274
+459,Consultant,06/11/08,USR,915
+460,Emanuel Calso,05/21/09,USR,149
+462,Red Hat,03/27/10,USR,3328
+464,Fewlaps S.L,03/13/11,USR,221
+465,Dependency CI,02/27/08,USR,11486
+472,Made with bytes,10/15/09,USR,2600
+477,Nulltyped,07/06/11,USR,774
+480,mymorningroutine.com,02/06/10,USR,152
+481,University of Nebraska-Lincoln,10/20/10,USR,1360
+489,FH Salzburg - University of Applied Science,11/26/08,USR,1569
+490,TUT,07/20/10,USR,164
+491,MechanisM,09/01/09,USR,225
+493,Advanced Digital Science Center ,05/15/10,USR,641
+494,"Station3, Inc.",06/22/11,USR,241
+497,Google,12/11/08,USR,613
+505,Inclusive Design Research Centre,01/13/11,USR,1494
+511,Componentix,09/14/09,USR,350
+517,Automattic,07/24/09,USR,1106
+519,CARTO,01/09/09,USR,6465
+521,Stanford University,07/22/11,USR,496
+524,Gardeshnama,05/03/09,USR,137
+527,New York University,10/04/10,USR,9868
+528,http://mdolon.com/,06/04/10,USR,196
+531,Sars Centre,08/11/10,USR,799
+534,"PayPal, Inc.",04/12/08,USR,4994
+535,Hortonworks,03/21/10,USR,3053
+537,Envoy,02/11/10,USR,3089
+540,@bulutyazilim,01/15/10,USR,2174
+553,Asaleo jsc,01/19/09,USR,334
+554,@Hazeorid & @Hacktiv8,04/02/10,USR,2820
+556,Lightmatter,02/20/10,USR,150
+557,Royal Bits,06/02/10,USR,541
+560,Appsembler,08/24/09,USR,979
+561,silverorange,01/27/09,USR,962
+568,Esri,04/09/10,USR,855
+573,@moogu ,05/06/09,USR,1682
+586,@cairnco ,02/05/10,USR,584
+587,"Google, Inc.",06/30/08,USR,543
+595,OCAD University,03/08/12,USR,411
+598,Sawhorse Media,12/06/09,USR,200
+601,@sonnetmedia ,08/14/09,USR,18968
+617,Bocoup,12/11/09,USR,4895
+620,SpotMe,05/25/08,USR,140
+624,Google,10/15/09,USR,642
+630,SwingDev,05/19/08,USR,118
+632,Mozilla,07/27/10,USR,138
+638,23 Spaces,01/30/09,USR,171
+640,@sensiolabs,04/13/09,USR,8503
+643,Y Combinator,02/26/10,USR,182
+646,Itseez,04/19/12,USR,154
+651,"Facebook, Ex-@Twitter, TodoMVC, @TasteJS, @Yeoman",05/10/08,USR,7421
+655,Yakamoz Labs,05/30/09,USR,213
+663,Booking.com,01/09/09,USR,3316
+666,Luis Abreu Ltd.,08/18/08,USR,352
+670,Nektra Advanced Computing & Data Big Bang,10/19/09,USR,109
+675,@necenzurat,10/27/09,USR,289
+680,CERN,10/26/09,USR,8294
+682,Milewide,12/09/08,USR,186
+684,Atlassian,01/29/10,USR,798
+695,GasBuddy,03/12/09,USR,779
+698,HashCube,07/01/09,USR,495
+701,"Google, Inc",04/05/11,USR,13757
+703,Amahi,05/10/08,USR,1183
+704,TypesetIO,03/06/10,USR,653
+706,Lyft,04/06/10,USR,626
+708,Please see @dcai,04/13/08,USR,1431
+709,@Instacart,02/20/09,USR,3622
+712,US Auto Parts Network Philippines Corp,02/06/11,USR,100
+716,DabApps (http://www.dabapps.com),04/12/08,USR,998
+733,Yahoo,10/15/08,USR,5674
+736,http://lightcorp.net/,05/31/08,USR,271
+740,Etch Software,03/16/11,USR,152
+744,nerd,08/14/10,USR,590
+746,Arezzo&Co,11/22/10,USR,538
+757,romack.net,07/16/10,USR,160
+763,Temesis,11/15/08,USR,225
+764,Mozilla,03/25/09,USR,5376
+772,Izberg Marketplace,01/13/11,USR,304
+775,Math & Pencil ,04/17/10,USR,1007
+776,Social Point,09/14/08,USR,140
+777,@Betaworks,09/26/10,USR,9870
+778,Bleacher Report,05/31/09,USR,109
+784,hackers4peace,06/26/11,USR,1850
+786,CastRoller,11/14/08,USR,170
+789,UrbanStems,09/21/10,USR,197
+794,eResources,02/17/11,USR,1439
+796,Heroku,08/26/09,USR,10955
+798,Mozilla,10/13/09,USR,5375
+799,@AusDTO ,06/02/08,USR,3715
+802,Software Developer,03/21/08,USR,878
+817,@10up,09/20/10,USR,287
+821,"Yelp - Austin, TX",09/29/08,USR,1124
+823,Mozilla Corporation,08/23/08,USR,7097
+831,@riptano @datastax ,09/23/10,USR,1140
+839,Apple,12/30/15,USR,19915
+840,All Day,02/29/08,USR,1263
+844,Smaato,04/11/11,USR,374
+845,Numiko,12/24/10,USR,112
+850,Counsyl,09/04/09,USR,804
+854,@luizalabs,03/06/10,USR,414
+856,UniCredit R&D,11/04/09,USR,1767
+858,@TailorDev ,03/07/10,USR,11356
+859,@Incenteev,10/14/10,USR,8158
+861,Student at University of Paderborn,04/20/11,USR,1960
+862,Mozilla,04/16/11,USR,9248
+866,Pivotal,11/16/10,USR,8323
+867,"Light Transport Entertainment, Inc.",07/28/08,USR,1987
+869,Mozilla,10/31/09,USR,17354
+872,Mozilla Corporation,11/25/09,USR,10380
+873,Mozilla,06/09/10,USR,11197
+875,Ubisoft Blue Byte,12/21/10,USR,5556
+877,@heroku,03/13/08,USR,4299
+886,http://spring.io,09/22/11,USR,4828
+895,"InterWorks, Inc.",04/09/09,USR,625
+896,"Square, Inc.",03/24/09,USR,15442
+901,@netvibes,03/09/09,USR,1568
+903,MongoDB,11/24/09,USR,780
+904,Percolate Industries,11/15/10,USR,496
+909,@Pasilobus ,08/02/11,USR,180
+923,qiidi,02/08/10,USR,2105
+941,Capgemini UK,03/19/12,USR,468
+947,@digiPlant,06/10/08,USR,1055
+950,@google ,04/06/11,USR,169
+961,JBpro's Interactive,02/06/09,USR,1335
+962,Joyent,07/11/10,USR,718
+963,IBM,05/13/10,USR,7712
+965,Northwestern University,11/15/08,USR,3056
+967,Foursquare,02/28/11,USR,177
+972,NUBIC,05/17/11,USR,211
+973,Computer Science Student,05/21/11,USR,373
+974,"StrongLoop, Inc.",03/08/10,USR,2813
+975,@PeachBun,03/26/08,USR,4800
+981,Google Canada,11/24/09,USR,2789
+988,Google,08/04/09,USR,8228
+989,thoughtram GmbH,12/13/10,USR,2960
+990,nuccio sas,04/05/08,USR,229
+992,AG Projects,06/29/10,USR,9344
+994,TableXI,04/21/08,USR,1548
+995,"npm, Inc.",05/04/08,USR,16203
+1001,"CoreOS, Inc (we're hiring!)",11/09/08,USR,6242
+1003,npm,03/26/11,USR,4929
+1004,Google,04/06/08,USR,4110
+1006,Incuna,11/09/10,USR,845
+1007,"Human Practice, Inc.",03/07/08,USR,2405
+1008,Rackspace,03/02/08,USR,7271
+1012,Northwestern University,07/10/09,USR,699
+1015,Incuna Ltd,10/23/08,USR,214
+1019,Slash7 LLC,03/18/08,USR,1820
+1024,Master Merchant Systems,02/21/11,USR,976
+1026,Plaid,01/27/09,USR,1240
+1027,Lev Interactive,11/24/09,USR,275
+1032,oldschooldev,06/23/11,USR,386
+1033,Allianz AMOS SE,02/21/11,USR,309
+1034,Phinlander LLC,07/20/11,USR,391
+1040,Freelance,10/13/09,USR,338
+1043,@apigee ,04/16/10,USR,167
+1048,"Brightcove, Inc",02/15/11,USR,2994
+1050,@civicsource ,12/04/11,USR,381
+1058,StackStorm,09/09/09,USR,16338
+1059,Simettric.com,11/05/09,USR,528
+1060,could be yours ;),02/12/09,USR,364
+1062,OpenTable,07/23/09,USR,257
+1063,RailsCasts,02/07/08,USR,3066
+1065,Socrata,08/03/11,USR,4816
+1068,Rackspace,11/21/11,USR,601
+1070,Rackspace,11/15/10,USR,105
+1072,Rackspace,12/14/10,USR,471
+1073,Klarna AB,02/23/12,USR,162
+1074,Rackspace Hosting,07/22/11,USR,703
+1076,Rackspace,05/28/10,USR,105
+1079,Rackspace,07/14/08,USR,2276
+1081,Tilt,06/19/10,USR,224
+1083,imgur.com,04/22/10,USR,2156
+1095,"Cisco Systems, Inc.",05/12/12,USR,276
+1103,Rackspace,06/10/11,USR,736
+1105,Cisco Systems,06/30/11,USR,1511
+1113,thinkphp,06/24/09,USR,2152
+1115,Seamless Docs,05/11/10,USR,1093
+1116,cee,10/19/10,USR,933
+1118,Floobits,02/09/10,USR,7445
+1127,Rackspace,04/02/12,USR,110
+1131,Dealertrack,07/22/11,USR,1001
+1132,Spotify,04/22/11,USR,230
+1145,Mozilla,08/20/08,USR,7338
+1147,Blimp,06/23/10,USR,1319
+1149,Mozilla,05/21/10,USR,520
+1150,"Old Road Studio, Arkency",03/21/09,USR,699
+1158,NicheWork LLC,01/01/09,USR,1030
+1161,Consultant,10/03/08,USR,5808
+1163,HHU Düsseldorf,05/10/11,USR,8747
+1167,Carnegie Mellon,07/27/12,USR,448
+1170,Swiftbeard Apps,06/06/11,USR,230
+1179,Planio,06/15/09,USR,3472
+1183,Instantiate,03/30/12,USR,146
+1185,CloudBees,09/29/09,USR,6322
+1191,finxl.com.au,08/06/08,USR,9546
+1194,Uphold,11/16/10,USR,638
+1197,"Erls Corporation, DS Foundation",06/23/11,USR,495
+1199,bits cooperative,06/04/08,USR,19746
+1204,http://rawa7.com,11/18/11,USR,258
+1208,OSU Open Source Lab,07/23/10,USR,852
+1212,Western Cape Labs,11/29/11,USR,3604
+1217,rackspace,08/17/11,USR,3583
+1218,@athenahealth,10/15/09,USR,123
+1233,Kobelt Manufacturing,07/31/10,USR,108
+1235,"Rackspace, US",07/07/10,USR,197
+1238,Shift Technology,04/06/10,USR,315
+1245,ICOSNET,02/27/10,USR,123
+1246,pizza.,12/08/09,USR,7024
+1247,Airware,10/17/08,USR,452
+1249,Koan Labs,03/12/10,USR,963
+1251,Sauce Labs Inc.,04/23/10,USR,574
+1252,@Palantir,06/26/11,USR,737
+1257,TaskRabbit,12/14/11,USR,452
+1270,@ScaleFT,02/17/11,USR,505
+1271,Contractor,06/28/11,USR,997
+1274,CoreOS,04/27/11,USR,1022
+1276,ScaleFT,05/05/09,USR,1238
+1280,Rackspace,02/08/12,USR,118
+1282,Helpshift.com,02/28/08,USR,395
+1285,Rackspace,12/04/10,USR,160
+1293,CoreOS,03/16/10,USR,1385
+1295,Tilt,09/17/10,USR,1000
+1301,Meltwater,12/05/09,USR,465
+1302,Rackspace,05/23/11,USR,104
+1303,Incode,05/05/08,USR,204
+1313,Rackspace,08/30/11,USR,1146
+1314,self,01/11/11,USR,138
+1320,Educreations,12/08/09,USR,2061
+1324,@wealthsimple,11/26/09,USR,2911
+1327,"Teleport Network, Inc.",09/16/09,USR,460
+1331,Jumo,10/22/10,USR,1002
+1338,Mohrenweiser & Partner,02/20/10,USR,1758
+1346,Rackspace,04/09/11,USR,2100
+1348,"Rackspace, Inc.",03/12/12,USR,288
+1354,Tivix,04/12/09,USR,123
+1363,Xmonster Inc.,10/26/10,USR,1218
+1364,quantified motion,05/18/09,USR,2422
+1365,Matangle AB,07/29/09,USR,471
+1368,Cyberpunk,07/20/09,USR,5190
+1371,Opternative,12/23/11,USR,636
+1372,@WeaveUp / Carolina Hurricanes,02/26/08,USR,568
+1385,Avolt.net,03/20/09,USR,855
+1387,Clever Clever Consulting Partners,06/09/10,USR,111
+1396,Biapy,03/01/12,USR,250
+1397,The Bakery,11/22/10,USR,2112
+1411,CatЯun,07/10/09,USR,291
+1412,Douban,07/03/10,USR,792
+1419,Bilkan,08/19/10,USR,231
+1423,@chequeado ,04/02/10,USR,231
+1424,"Widen Enterprises, Inc.",10/30/09,USR,2372
+1425,Avantgarde Labs GmbH,02/23/11,USR,2963
+1432,Soylent,11/22/11,USR,326
+1439,GoodRx,04/05/10,USR,1393
+1442,Media Temple,09/29/09,USR,724
+1445,Feel Train,05/06/10,USR,1322
+1455,"kashuo.com, Architect",04/14/11,USR,261
+1456,ProPublica + Tabula + Tor iOS,02/09/09,USR,1900
+1463,Chef,06/03/08,USR,9900
+1467,University of Illinois at Urbana-Champaign,12/03/11,USR,173
+1472,Markes International,12/06/10,USR,170
+1475,"Rachio, Inc.",01/15/09,USR,692
+1477,University of Waterloo,05/08/09,USR,2673
+1489,Yahoo!,07/25/10,USR,289
+1491,AdRise Inc.,11/09/10,USR,1076
+1494,Acquia,02/12/09,USR,380
+1497,Discord,04/03/09,USR,190
+1498,Agora Games,03/21/08,USR,298
+1501,Leadfeeder,02/08/12,USR,249
+1505,Gecko Designs,03/06/11,USR,2336
+1507,Facebook,01/15/09,USR,663
+1508,@Bareo @stripe ,09/18/10,USR,541
+1510,Appaloosa,10/11/11,USR,733
+1517,Jaguar Land Rover Open Source Technology Center (JLR OSTC),01/18/10,USR,1154
+1519,BIREME/PAHO/WHO,02/11/13,ORG,141
+1526,Chorally,04/28/09,USR,453
+1528,Rockfield Systems,07/30/08,USR,206
+1529,Develer srl,09/03/09,USR,790
+1531,@razorfish,01/10/09,USR,387
+1532,CRANE | WEST,09/03/08,USR,180
+1534,@spreedly ,01/11/09,USR,830
+1535,Sun Yat-Sen University,11/05/11,USR,444
+1538,thoughtbot,02/13/09,USR,2458
+1539,OpenTable,05/23/09,USR,403
+1541,PokéCheats,06/22/12,USR,1303
+1542,DevNet,09/19/08,USR,393
+1544,@Briteskies-LLC,10/27/09,USR,1357
+1545,University of Toronto,07/01/10,USR,665
+1546,Two Kings,02/03/12,USR,449
+1549,Adam George - Freelance Software Developer,03/31/11,USR,371
+1550,aYaline,04/25/09,USR,2522
+1552,"Treasury Board Secretariat, Government of Canada",01/13/12,USR,8646
+1554,Statistics Canada,09/29/11,USR,7923
+1556,GitHub,12/26/08,USR,4381
+1557,GitHub,12/26/08,USR,350
+1561,GitHub,05/26/08,USR,2527
+1563,GitHub,01/14/08,USR,7853
+1564,2ndscale,02/19/08,USR,3464
+1565,GitHub,02/03/08,USR,12030
+1567,Salesforce,01/29/08,USR,3747
+1570,@github ,10/20/07,USR,5065
+1575,"Apple, Inc",01/04/09,USR,52893
+1577,@Pobox,10/23/08,USR,12271
+1579,Juliand Digital,04/06/08,USR,1090
+1583,Checkdomain,09/12/10,USR,194
+1586,Zend Technologies,09/23/08,USR,68151
+1587,SilverDoor,12/03/10,USR,719
+1588,Formerly of Mordor,08/06/08,USR,1575
+1592,@polderknowledge ,12/03/10,USR,2134
+1593,"CarSaver, Inc.",01/12/09,USR,422
+1595,Plaid,02/26/08,USR,658
+1599,outer/edge,05/08/12,USR,1096
+1601,Xenith Networks,02/24/08,USR,290
+1604,Chegg Inc,07/04/10,USR,336
+1607,CareZone,04/06/09,USR,427
+1611,Mobify,10/14/08,USR,547
+1613,Stripe,01/23/11,USR,275
+1616,Shopify,10/20/10,USR,848
+1620,Roave.com,04/07/08,USR,3751
+1622,Lizard Brain UG,04/13/11,USR,461
+1623,Pixel Cookers,01/14/11,USR,381
+1625,Freelance PHP developer,12/17/10,USR,2903
+1626,Kakaku.com,03/03/12,USR,186
+1628,Marco Pivetta Software Development,11/17/09,USR,25123
+1633,Dropbox,07/25/10,USR,935
+1634,Machinalis,04/03/09,USR,570
+1636,MongoDB,04/15/10,USR,8869
+1637,@HackerspaceKRK ,07/13/10,USR,1137
+1640,Chargifi,05/17/11,USR,3702
+1643,TEA - The Ebook Alternative,03/25/09,USR,3709
+1646,DonkeyCode,03/04/11,USR,2102
+1647,@owneriq-dev ,03/16/12,USR,3262
+1649,Mobify,04/15/11,USR,453
+1661,Redaxmedia,06/10/12,USR,6538
+1664,Telefonica I+D,05/09/12,USR,4011
+1665,Wargaming.net,02/09/12,USR,1356
+1666,Mobify,05/15/12,USR,284
+1669,iProov,07/16/12,USR,6709
+1672,smart pixel media,02/18/10,USR,1215
+1675,Mobify,11/21/11,USR,498
+1689,Shopify,10/07/09,USR,257
+1695,Jun Group,11/17/10,USR,581
+1700,http://twitter.com/tavisrudd/,04/04/10,USR,840
+1702,Bruce Mau Design,09/18/11,USR,230
+1703,NodeSource,01/21/09,USR,1467
+1706,Google,05/15/10,USR,1566
+1707,"Burnkit Creative, Inc.",10/22/11,USR,234
+1708,FINN.no,06/23/08,USR,743
+1709,Webmans JP Self Employed,07/07/10,USR,104
+1711,Pokémon Company,06/24/12,USR,376
+1713,Mozilla Foundation,09/16/10,USR,3694
+1714,FileRight,12/05/08,USR,575
+1721,GNT Vietnam,01/16/12,USR,467
+1732,wundersolutions.com,06/17/09,USR,5900
+1735,MagmaLabs,01/16/12,USR,1067
+1738,Myself,07/21/12,USR,9686
+1740,Contributed Systems,03/12/08,USR,4762
+1747,Gridium Inc.,10/07/10,USR,191
+1752,WePow,04/14/09,USR,129
+1753,UO Consulting,11/04/09,USR,3217
+1759,KidsStar Inc.,01/19/11,USR,785
+1761,"iCoreTech, Inc.",06/06/08,USR,480
+1763,@VoiceLayer ,11/11/10,USR,973
+1770,UXtemple,08/25/10,USR,1746
+1773,Kwanso,02/17/09,USR,280
+1777,SumoCoders,03/18/08,USR,231
+1779,"Google Chrome, ♥z",12/08/08,USR,8695
+1781,Fight the Current,06/24/10,USR,781
+1804,SmartThings,03/03/11,USR,842
+1831,Mad Science,04/29/10,USR,14952
+1859,Moacir Moda.com,01/05/11,USR,2241
+1860,Karlsruhe Institute of Technology,03/22/12,USR,2040
+1863,SUSE,01/25/11,USR,1736
+1865,UpCloo Ltd. - Corley S.R.L.,01/07/11,USR,3584
+1866,SUSE,07/12/08,USR,8429
+1867,Quality Solution,10/23/10,USR,3859
+1869,appFitoo,04/10/08,USR,1171
+1871,SciELO ,12/03/09,USR,3027
+1874,Rocket Internet SE,11/28/08,USR,604
+1898,Student,07/14/11,USR,476
+1901,LinkedIn,07/14/11,USR,143
+1903,@laterpay ,01/09/09,USR,3065
+1905,@EditLLC ,11/06/09,USR,940
+1907,Rackspace,02/03/09,USR,844
+1919,Xero,02/02/11,USR,729
+1924,VarageSale,12/11/09,USR,252
+1925,Twitter,02/12/10,USR,1050
+1939,@estudar,12/02/09,USR,807
+1940,VMware - Socialcast,12/12/09,USR,256
+1941,Pulsus,04/03/08,USR,706
+1945,Nubank Brasil,08/31/09,USR,304
+1946,"Docker, Inc",02/09/09,USR,65265
+1949,StatDNS,06/02/11,USR,1880
+1957,ZNC Sistemas,08/19/10,USR,645
+1959,@rstudio,09/21/09,USR,4882
+1965,Pactera,04/05/12,USR,1085
+1966,Red Hat,01/21/09,USR,3351
+1968,@globocom,02/06/09,USR,9487
+1973,Aeroplane Software LLC,02/21/09,USR,1555
+1976,PermanentMarkers,02/08/09,USR,1092
+1977,TCL CORPORATION,03/21/09,USR,187
+1985,mtod.org,12/29/09,USR,1091
+1989,UserTesting.com,01/30/10,USR,338
+1990,Adobe Systems Inc.,08/19/10,USR,8687
+1991,ServeBox,02/10/11,USR,755
+1992,@Sumi-Interactive ,03/03/10,USR,1973
+1996,@elastic ,06/25/11,USR,599
+2002,Linaro,04/29/10,USR,14301
+2007,Bauhaus-Universität Weimar,06/01/09,USR,1056
+2016,Carnegie Mellon University,06/05/12,USR,2085
+2026,Carnegie Mellon University,07/22/10,USR,2107
+2033,CakeDC,11/11/09,USR,1033
+2034,Bownty,12/01/08,USR,11081
+2043,Freshout,11/13/08,USR,240
+2046,PDMLab,05/26/10,USR,458
+2047,Exozet Berlin GmbH,11/21/08,USR,1808
+2049,Apigee,02/14/09,USR,339
+2051,General Assemb.ly,12/09/09,USR,184
+2053,GVMachines Inc.,05/14/10,USR,363
+2055,not available,04/16/11,USR,230
+2056,SUSE Linux GmbH,03/12/08,USR,201
+2058,@SMX-LTD and @superstruct ,07/31/10,USR,312
+2065,PageCloud,04/23/11,USR,327
+2066,International Classical Music Database,10/02/11,USR,507
+2069,Gradle,02/03/09,USR,1839
+2071,@CakeDC ,05/17/11,USR,320
+2077,Mozilla,06/17/10,USR,1745
+2078,@google ,07/16/09,USR,1629
+2079,Stanford University,09/06/09,USR,407
+2080,Mozilla,10/05/08,USR,6203
+2081,Mozilla,03/26/11,USR,899
+2084,Recruiters go away,10/25/09,USR,13745
+2086,Broad Institute,07/22/11,USR,3671
+2088,"pork industries, llc.",02/22/08,USR,112
+2090,Samizdat Drafting Co.,11/05/10,USR,1082
+2094,Freelance,05/26/08,USR,5670
+2100,Canonical,03/26/10,USR,857
+2101,Flixbus @flix-tech ,08/14/09,USR,757
+2105,Occitech,04/21/09,USR,956
+2107,Red Hat,01/27/09,USR,6992
+2114,Hire me!,02/21/09,USR,985
+2119,Werkspot.nl,09/26/13,USR,1247
+2122,Basecamp,03/08/08,USR,2091
+2123,Weill Cornell Medicine,05/10/12,USR,1761
+2127,Harvard Medical School,11/23/11,USR,1533
+2130,"University of British Columbia, BC Cancer Agency Genome Sciences Centre",05/30/10,USR,12127
+2137,Life Technologies,02/28/08,USR,222
+2138,Sage Bionetworks,05/15/09,USR,1381
+2140,"Treasure Data, Inc.",02/24/09,USR,8396
+2146,"Cognitect, Inc",02/27/08,USR,5958
+2147,Moz,01/26/09,USR,10300
+2148,LockState,06/17/08,USR,506
+2149,@CaseCommons,11/14/09,USR,1318
+2152,Brain Bytes Creative LLC,02/01/11,USR,161
+2157,@soundcloud,07/01/10,USR,639
+2159,Code Climate,01/13/08,USR,1713
+2160,C42 Engineering,02/05/10,USR,105
+2161,GO-JEK,07/31/08,USR,724
+2163,Slides,02/21/11,USR,2150
+2164,Big Nerd Ranch,07/20/10,USR,2027
+2167,"HarleyPig, LLC",01/24/10,USR,959
+2170,Serial Graphics,09/20/11,USR,109
+2173,Alsacreations,11/21/10,USR,795
+2175,"Comal Productions, Inc.",09/03/09,USR,2189
+2177,@change ,01/30/12,USR,540
+2179,@maxmind,01/31/09,USR,16678
+2182,G5,12/22/08,USR,906
+2184,@salesforce-ux ,04/08/08,USR,167
+2186,Mozilla,01/15/11,USR,896
+2190,Serial Graphics,09/30/09,USR,2214
+2194,Red Hat,02/19/10,USR,4438
+2196,CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences,07/30/12,USR,810
+2198,NodeSource,04/16/11,USR,1494
+2201,Pierlis,02/13/09,USR,9372
+2202,Oak Ridge National Laboratory,10/06/11,USR,2379
+2209,Thomson Reuters,10/06/11,USR,245
+2210,@lsst,09/28/10,USR,4068
+2211,Oak Ridge National Laboratory,01/03/12,USR,567
+2212,Microsoft,03/15/12,USR,1038
+2213,@ImageOptim ,04/09/09,USR,5757
+2214,Voormedia,04/27/09,USR,1040
+2217,ebay,06/22/11,USR,1213
+2219,Facebook,05/21/12,USR,125
+2223,thePHP.cc,09/18/08,USR,14383
+2224,Facebook,01/28/09,USR,489
+2229,Manuka Coalition,05/13/08,USR,11953
+2232,Health Hero,04/09/10,USR,926
+2235,@tvoli ,08/10/11,USR,1064
+2236,"National Institute of Technology,Calicut ",08/20/11,USR,599
+2239,Founder @ CodePath,04/11/08,USR,6702
+2241,Koding,05/27/12,USR,3230
+2245,MemSQL,07/20/12,USR,363
+2246,"NUBEE Tokyo Co,. Ltd.",04/25/11,USR,451
+2254,@Mapbox,07/21/08,USR,5903
+2259,BinaryAge,04/06/08,USR,10485
+2261,Pixar Animation Studios,03/14/08,USR,121
+2262,Codeminer 42,03/11/08,USR,1372
+2263,Locaweb,03/17/09,USR,1779
+2264,Postmates,02/23/08,USR,4606
+2265,Longform.org,06/06/08,USR,271
+2268,Gentle Bytes,04/24/09,USR,1090
+2272,Canary,02/16/09,USR,3502
+2274,The High Technology Bureau,09/08/08,USR,661
+2282,exygen.io,03/26/08,USR,616
+2283,PixelEspresso,11/04/08,USR,320
+2284,"Bytedance, Inc",06/23/08,USR,1302
+2286,"Inview Technologies, Inc",03/13/10,USR,188
+2301,Crossfield Digital,02/25/09,USR,788
+2302,浙江顺文网络科技,03/28/08,USR,186
+2308,LearnUp,03/24/08,USR,2297
+2317,"Fast Wombat, LLC",01/05/11,USR,1474
+2321,Magical Panda,07/03/08,USR,505
+2322,Dev Bootcamp,08/25/08,USR,173
+2323,Togethera,05/19/10,USR,747
+2330,Flying Yeti,05/11/09,USR,249
+2336,"@TheZeitgeist (Zeitgeist Information Systems, LLC)",08/18/08,USR,143
+2339,@DeloitteDigital,05/26/11,USR,672
+2340,VeryLastRoom - RezZza,02/15/09,USR,1187
+2343,Emagine Concept Inc.,12/08/09,USR,172
+2344,@spreaker,10/21/10,USR,213
+2352,Fitbit,04/04/11,USR,1601
+2355,Clickable Bliss,02/05/09,USR,449
+2360,Bekk,06/16/10,USR,745
+2361,Buildkite,09/23/08,USR,4568
+2364,@Beancrunch @Financial-Times ,06/21/11,USR,1315
+2367,Twitter: @ortwingentz,07/30/09,USR,342
+2370,Google,03/28/10,USR,583
+2372,Freelance,04/11/08,USR,655
+2373,Ticketbis,01/24/10,USR,468
+2376,BitLove Inc.,06/10/09,USR,354
+2378,@baseinc ,12/11/08,USR,503
+2381,First Water Tech Ltd,03/30/09,USR,208
+2383,Thington,03/25/08,USR,341
+2384,Hubbub,04/10/09,USR,136
+2385,nKey Mobile Solutions,02/06/09,USR,763
+2386,Ipanema Labs LLC,10/18/08,USR,215
+2391,Taqtile,03/30/11,USR,445
+2394,QVIVO Limited,03/22/11,USR,105
+2398,http://www.plausible.coop,07/29/08,USR,2357
+2405,Jasita Consulting,12/06/08,USR,269
+2407,"Code No Evil, LLC",05/14/10,USR,108
+2408,@InVisionApp,11/20/09,USR,185
+2414,Dervish Software,04/18/10,USR,138
+2415,Innopage,06/15/11,USR,173
+2421,GraphAware,10/06/10,USR,4359
+2422,JC Multimedia Design,07/18/08,USR,957
+2425,Apple,02/28/10,USR,2620
+2426,Facebook,06/15/08,USR,723
+2427,@apple,04/17/08,USR,8136
+2428,DataReef,01/23/11,USR,265
+2435,Freelancer,12/28/10,USR,184
+2438,Rewish,02/18/09,USR,387
+2439,USAA,05/21/08,USR,338
+2441,nonda.co,03/10/10,USR,1830
+2444,@Flipboard,04/04/08,USR,1303
+2446,Ekohe,03/22/10,USR,150
+2455,Yuanfudao,04/16/11,USR,333
+2459,@egeniq ,03/30/09,USR,382
+2460,undefined,05/21/10,USR,1539
+2462,Noumenal Software,03/18/09,USR,923
+2465,LINE Corp.,10/12/09,USR,1827
+2466,Concord Systems,01/02/10,USR,1936
+2467,mlb,10/07/10,USR,548
+2468,Freelance,07/24/09,USR,4215
+2471,@ekreative ,04/01/11,USR,2066
+2472,RedShift,09/23/11,USR,103
+2476,@thoughtbot,05/29/08,USR,2221
+2484,"Cabify, HipByte",08/30/11,USR,616
+2489,OPEN input,03/11/11,USR,175
+2492,Google,10/06/10,USR,116
+2495,Seeds Design,01/02/12,USR,1527
+2497,Roepcke Computing Solutions,12/12/08,USR,178
+2504,Survios,03/31/08,USR,542
+2505,Zerista,07/28/08,USR,273
+2506,"FocalShift, LLC",09/04/09,USR,545
+2507,University of Cambridge,06/07/11,USR,4976
+2523,foodjunky,04/09/12,USR,1861
+2526,Maxpoint,03/14/12,USR,1256
+2535,University of Michigan,05/11/09,USR,825
+2536,EthDev,08/16/08,USR,1123
+2538,@insales ,05/04/11,USR,166
+2544,Famigo,04/10/11,USR,293
+2550,@ozlo ,11/29/08,USR,2314
+2551,"Meteor (formerly: Facebook, Quora, Mozilla, Apture, Meebo)",04/08/08,USR,7988
+2552,Mozilla,04/08/08,USR,6884
+2553,Venn,03/26/08,USR,3588
+2556,Pluralsight,01/15/08,USR,659
+2564,Awake Networks,08/02/08,USR,605
+2570,-,09/15/08,USR,382
+2573,Dropbox,02/27/08,USR,610
+2574,Backblend Systems Inc.,08/16/08,USR,286
+2576,"Rubinius, Inc",01/29/08,USR,13154
+2579,twitter,03/13/08,USR,379
+2580,Mozilla Corporation,12/23/09,USR,3833
+2581,Reaktor,03/18/08,USR,970
+2582,Software Villain,02/17/08,USR,2597
+2584,@Remitly,02/29/08,USR,1513
+2585,Monits,12/09/09,USR,706
+2590,Global Poverty Project,02/07/10,USR,518
+2595,Pogodan,04/27/10,USR,258
+2605,Oozou,01/20/09,USR,829
+2607,Mozilla,03/08/09,USR,6037
+2608,"PlexObject Solutions, Inc.",02/27/09,USR,3584
+2611,Operator,11/01/10,USR,616
+2618,meetup.com,03/05/08,USR,6269
+2622,Google,05/11/09,USR,3006
+2628,Eloquentix,01/24/09,USR,1264
+2631,@PhoenixLabsCanada,08/07/09,USR,3127
+2633,@google ,07/09/10,USR,497
+2640,http://www.conarrative.com,11/19/09,USR,207
+2645,Espians,10/22/08,USR,2667
+2648,@everydayhero ,07/19/10,USR,416
+2650,Founder of a startup,07/21/10,USR,452
+2653,Under Armour,02/28/08,USR,264
+2655,Stanford University,04/29/09,USR,2353
+2657,Neutrino,07/29/10,USR,102
+2660,Wikimedia Foundation,10/24/08,USR,1783
+2666,Swrve,11/23/09,USR,170
+2667,CodingSkills,09/12/09,USR,1760
+2668,Permission Data,09/07/09,USR,508
+2674,"AuLabs + IoTone, Inc.",03/17/09,USR,716
+2678,EA,01/17/09,USR,1334
+2683,@google ,12/14/08,USR,5115
+2690,@Uber,03/10/08,USR,1396
+2698,Silex,10/12/09,USR,4669
+2704,Instacart,07/22/09,USR,101
+2705,Alibaba Inc.,09/29/09,USR,124
+2710,ΩF:∅,01/16/09,USR,968
+2713,Google,12/14/09,USR,204
+2717,The Muse,09/15/09,USR,1266
+2721,Condé Nast,04/02/08,USR,5126
+2723,Travis CI,10/22/08,USR,26543
+2727,Freelance engineer,10/27/08,USR,677
+2729,SOME BLOKES IN SYDNEY,05/15/08,USR,243
+2735,Monterail.com,11/14/09,USR,1056
+2736,Crowd Emotion Ltd,07/08/09,USR,102
+2738,Keio University,05/01/08,USR,5403
+2739,Jabberwocky,04/30/08,USR,1985
+2740,olisti.co,08/18/08,USR,1571
+2744,Ideato,12/29/09,USR,486
+2747,Tsinghua University,01/31/10,USR,1090
+2748,@tiptop-io & @the6hours ,01/21/09,USR,1097
+2754,Arctouch,05/14/09,USR,129
+2759,supermatter,02/13/09,USR,246
+2768,Twitter,12/31/09,USR,793
+2769,TU München,12/07/08,USR,220
+2771,Wolfram Research,08/15/10,USR,186
+2779,@well-typed ,03/19/08,USR,3447
+2781,WEETGO,08/16/10,USR,126
+2782,GitHub,11/14/10,USR,5220
+2792,CGTA,03/10/09,USR,926
+2793,"Prometheus Research, LLC",01/18/11,USR,710
+2795,The Iron Yard,10/10/10,USR,1237
+2796,stable/kernel,01/28/11,USR,110
+2802,Flickr computer vision,08/30/09,USR,704
+2809,Payne Digital Ltd,05/16/10,USR,3462
+2811,neo technology,02/01/09,USR,3979
+2812,"Eventsourcing, Inc.",02/19/08,USR,5596
+2815,@tlcsrc,01/11/09,USR,3642
+2816,@Puzzle ITC GmbH,03/02/10,USR,2737
+2822,palletops.com,02/12/09,USR,9451
+2823,Google,05/18/08,USR,3646
+2827,Hewlett Packard Enterprise,05/15/09,USR,481
+2831,@PSPDFKit,02/21/10,USR,3319
+2837,GameGenetics,06/03/10,USR,2233
+2839,Captain401,12/26/09,USR,261
+2841,"@google, on @dart-lang ",01/13/09,USR,5170
+2844,BillGuard,10/27/08,USR,134
+2847,@adhocteam ,02/27/08,USR,825
+2849,Mozilla,01/08/09,USR,1544
+2853,Vast.com,07/31/10,USR,200
+2857,@pivotal-cf,02/21/10,USR,1844
+2860,Joyent,06/06/09,USR,315
+2873,Privat,02/04/10,USR,288
+2879,SunnyCloud,11/15/09,USR,1177
+2880,Increments Inc.,08/28/08,USR,1195
+2881,@TeachersPayTeachers ,04/12/08,USR,788
+2885,eBay,03/20/09,USR,687
+2887,Clever Cloud,10/09/09,USR,401
+2891,Mozilla,01/12/09,USR,2248
+2893,thoughtbot,04/04/08,USR,552
+2895,Pocket Gems,07/10/10,USR,188
+2896,Addepar,10/13/10,USR,169
+2899,Carnegie Mellon Department of Computer Science,05/26/10,USR,136
+2901,Exquance Software Oy,05/02/09,USR,5868
+2903,Leto Labs LLC,10/22/08,USR,4573
+2904,Airbnb,05/17/08,USR,4870
+2906,Double Rebel,02/28/10,USR,2015
+2909,Instant Cocoa,10/01/09,USR,111
+2910,Comcast VIPER,12/02/08,USR,107
+2911,Facebook,03/07/11,USR,897
+2912,@turnercode ,12/14/08,USR,545
+2913,Freelance,06/21/11,USR,234
+2918,Heroic Labs,03/24/10,USR,567
+2928,Next Thing Co.,02/25/09,USR,192
+2929,PillowSoft LLC,02/20/10,USR,314
+2936,mlbam,04/10/09,USR,331
+2939,University of Washington,03/29/11,USR,2506
+2943,Quality Enterprise Consulting Limited,01/08/09,USR,187
+2948,Populate,07/20/08,USR,3828
+2949,Hydna AB,04/11/08,USR,793
+2955,student,11/13/09,USR,376
+2969,@mozilla,06/03/10,USR,3502
+2973,Figma,09/18/10,USR,2824
+2978,"Cisco Systems, Inc.",06/15/10,USR,636
+2982,@mozilla,05/13/08,USR,2599
+2983,FullStack.io,02/20/08,USR,3592
+2984,Facebook,10/09/10,USR,449
+2988,Google,03/08/10,USR,642
+2990,HelloWallet,06/10/10,USR,262
+3001,Faveod,07/04/10,USR,525
+3003,ITG,11/16/09,USR,208
+3010,MongoDB,07/16/10,USR,2731
+3011,GemTalk Systems,02/17/11,USR,13813
+3013,Distributed Expertise SA,10/28/08,USR,232
+3014,Mozilla,12/16/09,USR,28320
+3018,Axis 41,11/18/08,USR,326
+3019,Warwick Analytics,02/02/11,USR,230
+3021,I dont represent my company.,04/30/11,USR,424
+3027,Creative Curiosity,03/18/11,USR,886
+3031,TVB.com,11/03/10,USR,702
+3032,RestMesh,01/06/10,USR,604
+3035,Facebook,08/11/09,USR,709
+3036,"Data Cataltyics, S.L.",07/28/09,USR,1759
+3041,日本コンピューター,11/12/10,USR,227
+3045,InfluxData,11/22/11,USR,2789
+3048,Circonus,01/15/09,USR,1218
+3062,RightScale Inc.,10/17/11,USR,2581
+3063,Award Winning Fjords,02/13/08,USR,4462
+3069,Stripe,06/18/09,USR,1772
+3075,mPerpetuo,12/09/11,USR,258
+3078,Mozilla,07/02/14,USR,1025
+3079,JetBrains GmbH,08/01/09,USR,5258
+3080,Rackspace,05/27/09,USR,11805
+3083,@hodinkee ,09/13/09,USR,2736
+3088,bocoup,10/07/08,USR,3480
+3090,EmerNet,10/25/10,USR,189
+3091,mozilla,10/10/11,USR,3580
+3092,Kanaya Hijab,01/08/11,USR,156
+3096,RebelHold,05/04/08,USR,1450
+3099,Security.,11/21/10,USR,1713
+3102,Hobnob Invites,01/28/10,USR,1062
+3107,Mozilla,07/13/09,USR,993
+3112,TVShow Time,05/16/09,USR,1478
+3113,Weborama,03/02/09,USR,494
+3119,Bloom Health,12/25/08,USR,280
+3121,Atlassian,07/16/09,USR,684
+3122,@humble ,10/25/10,USR,102
+3123,@vitalsource,02/24/08,USR,663
+3125,@uber ,09/19/10,USR,1227
+3129,eBay,04/28/08,USR,402
+3130,@meetnow,10/28/10,USR,292
+3131,"LoudDoor, LLC",01/30/11,USR,1144
+3135,Pixelcop Research,09/22/08,USR,5309
+3136,Twitter,10/24/08,USR,127
+3137,Satajanus,04/11/08,USR,105
+3140,"@Paribusteam (@VersaLabs/@VersaIO, @RESTmagic are my open source projects, check them out!)",11/13/09,USR,278
+3142,GitHub,01/09/10,USR,4896
+3144,None,03/06/10,USR,1441
+3145,Electronic Arts,03/05/09,USR,724
+3147,"Oktavilla, http://oktavilla.se",11/25/09,USR,748
+3148,@OrangeLV ,12/04/10,USR,2173
+3155,Freelance,12/11/10,USR,1103
+3159,Freelancing for startups (backend) ,03/21/10,USR,251
+3160,"TensorMap, Inc",09/04/08,USR,160
+3161,"GB Consulting, @gbraadnl",03/01/08,USR,2698
+3164,@bitjourney ,07/05/09,USR,9901
+3166,"NSONE, Inc",02/03/10,USR,957
+3169,Exertis Ztorm AB,01/01/11,USR,156
+3173,Bearch,03/14/11,USR,851
+3179,@ZHealth ,12/11/09,USR,5178
+3181,Erlang Solutions,01/26/16,USR,5007
+3183,Karhoo,03/11/11,USR,233
+3185,Rebelt inc.,05/14/08,USR,222
+3186,"Medley, Inc.",06/12/11,USR,1527
+3213,Twitch,12/08/08,USR,165
+3215,Enishi Tech Inc.,05/29/10,USR,7926
+3223,Self Employed,03/13/11,USR,375
+3227,Bold Financial Technologies Inc.,04/14/08,USR,293
+3232,Fssle,10/07/08,USR,494
+3235,Roche,03/30/10,USR,586
+3236,whitedrop network,01/23/10,USR,211
+3240,@NavicoOS,01/28/12,USR,517
+3244,UESTC,08/21/08,USR,252
+3252,SuperID.me,06/10/11,USR,5286
+3253,JetBrains,09/14/09,USR,2562
+3258,@neeveresearch ,06/08/09,USR,1613
+3261,@Mozilla,02/21/11,USR,2825
+3264,tairan.net,01/15/09,USR,314
+3267,YelloSoft,04/05/08,USR,9031
+3269,Base4 Sistemas,04/18/11,USR,184
+3279,taobao,07/14/10,USR,248
+3280,Qichang Networks,09/25/11,USR,103
+3286,www.gmvault.org,02/28/08,USR,1692
+3288,LetsBlumIt,03/17/10,USR,1138
+3292,Ukraine,05/17/10,USR,128
+3293,minus5 d.o.o.,11/21/08,USR,205
+3294,DSO Nat'l Labs,12/19/09,USR,508
+3296,Code For War,04/04/08,USR,190
+3297,"SaltyCrackers Co., Ltd",08/10/08,USR,264
+3298,Google,08/19/09,USR,346
+3299,Nervana Systems,09/09/10,USR,745
+3300,hygi.de GmbH & Co. KG,02/19/09,USR,116
+3301,Rako,08/13/10,USR,110
+3307,EyeQuant.com,09/10/08,USR,198
+3310,Luma,10/06/08,USR,652
+3323,Wishdates,11/01/08,USR,2028
+3339,"University of Science and Technology of China, School of Chemistry and Materials Science",04/09/10,USR,3579
+3341,@ccpgames ,03/14/10,USR,918
+3344,GitHub,03/14/08,USR,1392
+3348,Dragon Innovation,05/20/08,USR,335
+3352,Utiliz,12/03/11,USR,348
+3353,Netcraft,03/28/10,USR,807
+3361,D2L Corporation,02/03/11,USR,920
+3363,UW-Madison,07/29/08,USR,301
+3369,Qiix,03/30/11,USR,455
+3376,@roguehelix ,03/14/08,USR,432
+3377,Obeo,05/17/08,USR,1563
+3378,"Yandex, OpenCorpora",11/27/11,USR,380
+3380,Lugg,03/03/09,USR,493
+3382,Djangostars,11/05/09,USR,557
+3398,"DeNA Co.,Ltd.",08/14/10,USR,367
+3400,entera Environmental Planning,11/25/10,USR,1207
+3403,,03/16/09,USR,1158
+3414,@adphorus @arguman,11/25/11,USR,2080
+3418,Vokal,04/16/09,USR,1432
+3419,Tesla's Cat,02/18/12,USR,905
+3423,Solidworks,04/09/09,USR,180
+3425,IBM Perú,11/30/11,USR,122
+3427,Airbnb,06/22/10,USR,560
+3429,"Lazada Group, HCMC, Vietnam",12/22/11,USR,672
+3441,Nvent - Enabling the Data Driven Enterprise with BigData http://www.nventdata.com,09/08/09,USR,748
+3442,Valve Software,08/07/11,USR,2170
+3443,Quip,03/17/11,USR,1717
+3448,Canva,02/09/11,USR,13270
+3450,ServiceNow,03/31/11,USR,324
+3453,Ingo,10/22/09,USR,195
+3454,Columbia University,11/02/10,USR,3124
+3457,n/f,04/17/09,USR,302
+3466,Software Carpenter,11/30/09,USR,661
+3470,Huawei Co. LTD.,04/03/10,USR,803
+3476,Square,11/29/10,USR,284
+3480,Mozilla,07/07/10,USR,2747
+3482,National University of Singapore,07/28/09,USR,4649
+3483,Trello,06/18/10,USR,104
+3495,Mail: https://tr.im/joboffer,05/13/09,USR,347
+3497,Google,07/04/11,USR,1397
+3499,SLAC,01/18/11,USR,1068
+3501,"Rec United, Inc.",12/25/09,USR,107
+3509,~ Vacation ~,07/05/10,USR,7747
+3512,Ardoq AS,04/21/09,USR,193
+3515,SLUG/LAB,02/27/09,USR,365
+3518,Evaluni Inc.,03/22/10,USR,1574
+3520,huihoo,04/11/08,USR,202
+3530,OkCupid,02/20/10,USR,603
+3534,REA Group,12/02/09,USR,687
+3541,University of Southern California,06/04/11,USR,944
+3543,Apple,06/22/09,USR,2637
+3545,GameSim Inc.,09/16/08,USR,301
+3546,UC San Diego,02/11/10,USR,4134
+3556,YLD!,11/29/10,USR,1694
+3558,Google,04/15/10,USR,1559
+3571,Canonical,01/08/09,USR,1468
+3573,@cozy ,03/24/11,USR,2712
+3575,Isotop,06/22/08,USR,9796
+3581,@HewlettPackard ,09/23/09,USR,177
+3582,Position Development (positiondev.com),01/17/11,USR,2829
+3586,Not programming related,04/15/11,USR,1628
+3587,SOPHOS,06/22/08,USR,398
+3588,Genode Labs GmbH,08/18/11,USR,2973
+3593,DabApps,01/25/12,USR,2009
+3599,sketchfab,09/18/09,USR,1698
+3600,Box,10/01/10,USR,262
+3602,Fogbeam Labs,03/27/10,USR,1028
+3605,WIZTIVI,01/26/09,USR,879
+3608,Yahoo! Inc.,12/10/09,USR,107
+3610,@NotyIm ,01/27/09,USR,5151
+3613,qiniu.com,10/04/08,USR,1153
+3616,1984pulse,03/20/09,USR,1076
+3620,@fth-ship ,04/29/11,USR,1105
+3621,Teamwork,08/31/09,USR,819
+3626,Netflix,03/25/10,USR,949

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Visualizando Dados do GitHub </title>
+
+
+        <link href="vendors/css/bootstrap.min.css" rel="stylesheet">
+        <script src="vendors/js/jquery-3.3.1.min.js"></script>
+        <script src="vendors/js/bootstrap.bundle.min.js"></script>
+        <script src="vendors/js/d3.v5.min.js"></script>
+        <script src='vendors/js/spin.js'></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/visualization8.css"/>
+        <script type="text/javascript" src="assets/js/visualization8/d3-tip.js"></script>
+        <script type="text/javascript" src="assets/js/visualization8/companies_commits.js"></script>
+
+        <script>
+          $(function(){
+            $("#includedTabs").load("tabs.html");
+          });
+        </script>
+  </head>
+  <body>
+  <div class="container-fluid">
+    <div id="includedTabs"></div>
+  </div>
+
+    <div class="body" style="margin-bottom: 0px;">
+    <div class="container-fluid">
+      <h4 class="my-0 mr-md-auto font-weight-normal"> Top 20 empresas com maior número de commits na plataforma </h4>
+        <hr/>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+          <div id="chart-area"></div>
+      </div>
+    </div>
+    <!--
+    <div id="button">
+          <div id="button-lang">
+              <button class="btn btn-success" onclick="issues()">
+                Issues
+              </button>
+          </div>
+          <div id="button-lang">
+              <button class="btn btn-success" onclick="pulls()">
+                 Pull requests
+              </button>
+          </div>
+    </div>
+    <div id="chart" align="center"></div>
+    -->
+    <script type="text/javascript" src="assets/js/visualization8/d3-tip.js"></script>
+    <script type="text/javascript" src="assets/js/visualization8/companies_commits.js"></script>
+        
+  </body>
+</html>
